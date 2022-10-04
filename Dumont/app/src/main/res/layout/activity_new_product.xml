@@ -18,42 +18,39 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_weight="1">
-
-            <ImageButton
-                android:id="@+id/ibHomePage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#383535"
-                android:src="@drawable/ic_home_gray"
-                android:padding="15dp"
-                android:layout_marginRight="10dp"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:src="@drawable/ic_list_add_black"
+                android:src="@drawable/ic_home_black"
                 android:padding="15dp"
                 android:layout_marginRight="10dp"/>
+
+            <ImageButton
+                android:id="@+id/ibAddService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#383535"
+                android:src="@drawable/ic_list_add_gray"
+                android:padding="15dp"/>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_weight="0">
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="#383535"
                 android:src="@drawable/ic_arrow_left"
-                android:padding="15dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="10dp"/>
+                android:padding="10dp"/>
 
             <TextView
                 android:layout_width="80dp"
@@ -62,14 +59,15 @@
                 android:gravity="center"
                 android:background="#383535"
                 android:textColor="#CCCCCC"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="#383535"
                 android:src="@drawable/ic_arrow_right"
-                android:padding="15dp"/>
+                android:padding="10dp"/>
 
         </LinearLayout>
 
